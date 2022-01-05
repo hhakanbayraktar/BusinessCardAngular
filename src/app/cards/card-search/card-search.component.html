@@ -1,0 +1,4 @@
+<mat-form-field style="min-width: 300px;">
+    <mat-label>Kartvizit Ara</mat-label>
+    <input matInput placeholder="Başlık, Ad, Soyad veya Telefon" #searchText (keyup)="searchCard(searchText.value)">
+</mat-form-field>
